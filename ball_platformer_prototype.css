@@ -1,0 +1,42 @@
+*{
+	font-size: 12px;
+	background-color: gold;
+}
+
+.background{
+	background-color: gold;
+	z-index: 1;
+}
+
+#player{
+	width: 20px;
+	height: 20px;
+	background-color: #722;
+	border-radius: 50px;
+	position: absolute;
+}
+
+.platforms{
+	background-color: black;
+	position: absolute;
+	z-index: 0;
+}
+.finishes{
+	background-color: green;
+	position: absolute;
+}
+#levelText{
+	position: absolute;
+	font-size: 40px;
+	font-family: monospace;
+}
+#credits-container{
+	font-family: monospace;
+	left: 50px;
+	top: -420px;
+	position: absolute;
+
+}
+.credits{
+	font-size: 30px;
+}
